@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html> <!--starting tag for html-->
+	<head>
+		<!--Where scripts and styles often go-->
+		<style>
+			/* CSS Code Goes Here: the comments are done differently because we are now in the CSS ZONE */
+			body {
+				background-color : MintCream;
+			}
+			
+			h1 {
+				text-shadow : -3px -3px #d9d9d9;
+				color : Aquamarine;
+			}
+			
+			#main {
+				margin-left : auto;
+				margin-right : auto;
+				width : 300px;
+				display : block
+				
+			}
+			/*to refer to a class you put a period infront of the name*/
+			
+			.red-text{
+				color: Red;
+				text-shadow : -3px -3px #d9d9d9;
+			}
+			
+			.orange-text {
+				color: Orange;
+				text-shadow : -3px -3px #d9d9d9;
+			}
+			
+			.yellow-text {
+				color :Yellow;
+				text-shadow : -3px -3px #d9d9d9;
+			}
+			
+			.green-text {
+				color : MediumSpringGreen;
+				text-shadow : -3px -3px #d9d9d9;
+			}
+			
+			.blue-text {
+				color : Aqua;
+				text-shadow : -3px -3px #d9d9d9;
+			}
+			
+			a:visited {
+				color : Fuchsia;
+			}
+			a:hover {
+				color : hotpink;
+			}
+			
+			a:link {
+				text-decoration : none;
+			}
+			
+			.dropdown {
+				position : relative;
+				display : inline-block;
+			}
+			
+			.dropdown-content {
+				display : none;
+				position :absolute;
+				background-color : #d9d9d9;
+				min-width : 120px;
+				padding : 12px 12px;
+			}
+			
+			.dropdown:hover .dropdown-content{
+				display : block;
+			}
+
+		</style>
+	</head>
+
+	<body> 
+			<!--starting body tag for html
+			what you put in here gets displayed on the screen-->
+			
+			<!--h1 is a header tag, there are many header tags up to h6-->
+		<center> <h1>Top 5 Things I Did This Summer</h1> </center>
+		<center> <img src="dogwithsunglasses.jpg" width="400" height="300" alt="dogwithsunglasses" border="6">
+		</center>
+			<div id="main"> <!--includes entire list with numbers-->
+		
+			<ol type="A">
+				<div class="dropdown"> <!--this is where the programingfor dropdown menus start-->
+				<li class="red-text"><span>Go on a</span> <a href="http://www.royalcaribbean.com/?&ecid=ps_43700007903733998&gclid=CMnD1sDxzc4CFUPjfgodvlQNBA&gclsrc=ds">Cruise</a></li>
+				<div class="dropdown-content">
+					<p>Royal Caribbean</p>
+				</div>
+				</div>
+				<li class="orange-text">Went to <a href="https://www.knotts.com/">Knotts Berry Farm</a></li>
+		
+			
+				<li class="yellow-text">Went to <a href="https://www.ragingwaters.com/">Raging Waters</a></li>
+		
+				
+				<li class="green-text">Had a sleepover with Family Friends</li>
+			
+				
+				<li class="blue-text"><a href="http://cliparts.co/cliparts/8TA/Era/8TAEraepc.jpg">Summer School</a></li>
+			
+		    </ol>
+		
+		</div>
+		
+	</body> <!--ending body tag for html-->
+
+</html> <!--Ending tag has a slash in front-->
